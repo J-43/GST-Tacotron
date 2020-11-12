@@ -29,7 +29,7 @@ class Hyperparameters():
     # eval_text = 'it took me a long time to develop a brain . now that i have it i\'m not going to be silent !'
     # ref_wav = '/d/blizzard/lessac_cathy5/wavn/PP_309_093.wav'
     eval_text = 'On November 4, Sorrels told Behn he believed security difficulties at the Trade Mart could be overcome by special precautions.|On November four, Sorrels told Behn he believed security difficulties at the Trade Mart could be overcome by special precautions.'
-    ref_wav = '/home/aiffel0041/projects/GST-Tacotron/LJSpeech-1.1/wavs/LJ029-0083.wav'
+    ref_wav = '/home/aiffel0042/projects/GST-Tacotron/LJSpeech-1.1/wavs/LJ029-0083.wav'
 
     lr_step = [500000, 1000000, 2000000]
 

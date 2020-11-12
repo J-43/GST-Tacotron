@@ -21,7 +21,8 @@ class SpeechDataset(Dataset):
         # fpaths, texts = get_data(hp.data, r)  # thchs30
         # fpaths, texts = get_keda_data(hp.data, r)  # keda api
         # fpaths, texts = get_thchs30_data(hp.data, r)
-        fpaths, texts = get_blizzard_data(hp.data, r)
+        # fpaths, texts = get_blizzard_data(hp.data, r)
+        fpaths, texts = get_LJ_data(hp.data, r)
         print('Finish loading data')
         self.fpaths = fpaths
         self.texts = texts
@@ -175,7 +176,8 @@ def get_aishell_data(data_dir, r):
 
 
 def get_LJ_data(data_dir, r):
-    path = os.path.join(data_dir, 'transcript.csv')
+    # path = os.path.join(data_dir, 'transcript.csv')
+    path = os.path.join(data_dir, 'metadata.csv')
     data_dir = os.path.join(data_dir, 'wavs')
     wav_paths = []
     texts = []
